@@ -1,2 +1,2 @@
 # tasks
-Решение задач на PHP
+Решение задач на PHP, Python и Golang
