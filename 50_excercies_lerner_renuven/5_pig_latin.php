@@ -5,7 +5,7 @@ const EN_LETTERS = [
     'A', 'E', 'I', 'O', 'U', 'Y'
 ];
 
-function convert_word_to_pig_latin(string $word): string
+function convertWordToPigLatin(string $word): string
 {
     $word = trim($word);
     if (empty($word)) {
@@ -25,6 +25,6 @@ function convert_word_to_pig_latin(string $word): string
 
 $wordsForTest = ['fuck', 'donal', 'GAlexandr_', 'apple', 'any', 'x', 'a'];
 foreach ($wordsForTest as $wordForTest) {
-    $result = convert_word_to_pig_latin($wordForTest);
+    $result = convertWordToPigLatin($wordForTest);
     print_r("WORD FOR TEST: $wordForTest, RESULT: $result \n");
 }
